@@ -1,0 +1,1 @@
+This is the open file and write the something in it and save it.
