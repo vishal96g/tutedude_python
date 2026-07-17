@@ -109,3 +109,33 @@ print(f"Content written to {filename} successfully.")
 ```
 <img width="1242" height="225" alt="image" src="https://github.com/user-attachments/assets/6b7281a6-469c-420a-a1f7-1ee0558653b9" />
 
+## ✨ Program to read a text file in read mode and display content using file.read().
+#### 4. A Python program that opens a text file in read mode and displays its content using file.read(). It demonstrates basic file input/output operations.
+
+
+**File:** `  read-from-file.py`  
+```
+# Program to read from a file and display content
+
+# Ask the user for the file name
+filename = input("Enter the file name to read: ")
+
+try:
+    # Open the file in read mode
+    file = open(filename, "r")
+
+    # Read the entire content
+    content = file.read()
+
+    # Print the content
+    print("\n--- File Content ---")
+    print(content)
+
+    # Close the file
+    file.close()
+
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' does not exist.")
+```
+<img width="1026" height="292" alt="image" src="https://github.com/user-attachments/assets/64e15d2f-becd-4c9d-ab29-ec757f8cef7e" />
+
