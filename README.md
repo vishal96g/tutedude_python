@@ -37,7 +37,7 @@ else:
 <img width="1265" height="501" alt="image" src="https://github.com/user-attachments/assets/7c1bf6a8-e90a-408f-b359-b394a0b090de" />
 
 ## ✨ Dictionary-based program to add, update, and print student grades with if-else.
-#### 1. A dictionary-based Python program where student names are keys and grades are values. It allows adding new students, updating existing grades, and printing all student records using dictionary operations and if-else logic.
+#### 2. A dictionary-based Python program where student names are keys and grades are values. It allows adding new students, updating existing grades, and printing all student records using dictionary operations and if-else logic.
 
 
 **File:** `dictionary-program.py`  
@@ -87,4 +87,25 @@ while True:
 ```
 <img width="1050" height="862" alt="image" src="https://github.com/user-attachments/assets/8a3aa455-fdb0-4894-a3c2-c4ed94b56542" />
 
+## ✨ Program to create a text file and write user input using open() and write()
+#### 3. A Python program that creates a text file and writes user-provided content into it using file handling functions like open() and write().
+
+
+**File:** ` text-file-write.py`  
+```
+# Program to create a text file and write user-provided content
+
+# Ask the user for the file name
+filename = input("Enter the file name (e.g., notes.txt): ")
+
+# Ask the user for the content
+content = input("Enter the content you want to write into the file: ")
+
+# Open the file in write mode and write the content
+with open(filename, "w") as file:
+    file.write(content)
+
+print(f"Content written to {filename} successfully.")
+```
+<img width="1242" height="225" alt="image" src="https://github.com/user-attachments/assets/6b7281a6-469c-420a-a1f7-1ee0558653b9" />
 
